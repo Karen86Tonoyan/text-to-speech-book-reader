@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.Python
+build/
+dist/
+.eggs/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+.p4a-venv/
+.kivy-ios-venv/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/runtime artifacts
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.mypy_cache/
+.mypy_tmp/
+bandit.json
+htmlcov/
+.cache/
+
+# Kivy
+.kivy/
+.kivy-ios/
+.kivy-session.json
+
+# Android
+.buildozer/
+android/build/
+android/bin/
+android/.gradle/
+android/.buildozer/
+*.apk
+*.ap_
+*.aab
+*.keystore
+
+# iOS / Xcode
+ios/build/
+*.ipa
+*.xcworkspace/
+ios/.Python
+ios/ttsreader-ios/
+ios/__pycache__/
+
+# Recipes - large downloads
+recipes/*/src/
+ffmpeg/src/
+libmp3lame/src/
+libvorbis/src/
+libopus/src/
+
+# Docs
+docs/_build/
+
+# Data/cache
+*.sqlite3
+*.db
+*.mp3
+*.m4a
+*.ogg
+*.temp
+*.tmp
+
+# Miscellaneous
+*.bak
+*.swp
